@@ -1,0 +1,23 @@
+.search {
+    background-color: #282c34;
+}
+
+.search-form {
+    position: relative;
+    width: 100%;
+    padding: 5px 30px 5px 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 300;
+    background: transparent 7px 7px no-repeat;
+    background-image: url(search.svg);
+    background-size: 16px 16px;
+    color: #fff;
+    border: 0;
+}
+
+.search-form:focus {
+    background-color: #373940;
+    border-radius: 15px;
+    outline: 0;
+}

@@ -1,0 +1,13 @@
+.users {
+    font-size: 20px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+.users__list {
+    padding: 15px 20px;
+}
+
+.users__empty {
+    padding: 15px 20px;
+    color: #000;
+}

@@ -1,0 +1,23 @@
+.user {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #000;
+    border-bottom: 1px solid #e7e8ec;
+}
+
+.user:last-child {
+    border-bottom: none;
+}
+
+.user span {
+    margin-left: 20px;
+}
+
+.user__img {
+    width: 80px;
+    height: 80px;
+    background: center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
