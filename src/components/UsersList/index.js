@@ -3,7 +3,7 @@ import User from '../User';
 
 export default class UsersList extends Component {
     render() {
-        const filterText = this.props.filterText;
+        const filterText = this.props.filterText.toLowerCase();
         let userElements = [];
 
         if (!this.props.users || !this.props.users.length) {
@@ -11,7 +11,7 @@ export default class UsersList extends Component {
         }
 
         this.props.users.forEach((user) => {
-            if (user.name.indexOf(filterText) === -1) {
+            if (user.name.toLowerCase().indexOf(filterText) === -1) {
                 return;
             }
 

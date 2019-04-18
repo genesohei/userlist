@@ -6,7 +6,7 @@ export default class Header extends Component {
         return (
             <div className="header">
                 <div className="header__wrap">
-                    <div className="header__logo"></div><span>React</span>
+                    <div className="header__logo"/><span>React</span>
                 </div>
             </div>
         )

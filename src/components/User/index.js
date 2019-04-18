@@ -8,7 +8,7 @@ export default class User extends Component {
         };
         return (
             <div className="user">
-                <div className="user__img" style={imgStyle}></div>
+                <div className="user__img" style={imgStyle}/>
                 <span>{this.props.user.name}</span>
             </div>
         )
